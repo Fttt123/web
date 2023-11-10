@@ -1,0 +1,34 @@
+F:\BajajWeb\BajajWeb.Domian\bin\Debug\BajajWeb.Domian.dll
+F:\BajajWeb\BajajWeb.Domian\bin\Debug\BajajWeb.Domian.pdb
+F:\BajajWeb\BajajWeb.Domian\obj\Debug\BajajWeb.Domain.csproj.AssemblyReference.cache
+F:\BajajWeb\BajajWeb.Domian\obj\Debug\BajajWeb.Domain.csproj.CoreCompileInputs.cache
+F:\BajajWeb\BajajWeb.Domian\obj\Debug\BajajWeb.Domian.dll
+F:\BajajWeb\BajajWeb.Domian\obj\Debug\BajajWeb.Domian.pdb
+F:\BajajWeb\BajajWeb.Domain\bin\Debug\BajajWeb.Domian.dll
+F:\BajajWeb\BajajWeb.Domain\bin\Debug\BajajWeb.Domian.pdb
+F:\BajajWeb\BajajWeb.Domain\obj\Debug\BajajWeb.Domain.csproj.AssemblyReference.cache
+F:\BajajWeb\BajajWeb.Domain\obj\Debug\BajajWeb.Domain.csproj.CoreCompileInputs.cache
+F:\BajajWeb\BajajWeb.Domain\obj\Debug\BajajWeb.Domian.dll
+F:\BajajWeb\BajajWeb.Domain\obj\Debug\BajajWeb.Domian.pdb
+F:\BajajWeb\BajajWeb.Domain\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\BajajWeb\BajajWeb.Domain\bin\Debug\ServiceStack.Interfaces.dll
+F:\BajajWeb\BajajWeb.Domain\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\BajajWeb\BajajWeb.Domain\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\BajajWeb\BajajWeb.Domain\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\BajajWeb\BajajWeb.Domain\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\BajajWeb\BajajWeb.Domain\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\BajajWeb\BajajWeb.Domain\obj\Debug\BajajWeb.Domain.csproj.CopyComplete
+E:\graduation project\BajajWeb\BajajWeb.Domain\bin\Debug\BajajWeb.Domian.dll
+E:\graduation project\BajajWeb\BajajWeb.Domain\bin\Debug\BajajWeb.Domian.pdb
+E:\graduation project\BajajWeb\BajajWeb.Domain\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\graduation project\BajajWeb\BajajWeb.Domain\bin\Debug\ServiceStack.Interfaces.dll
+E:\graduation project\BajajWeb\BajajWeb.Domain\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\graduation project\BajajWeb\BajajWeb.Domain\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\graduation project\BajajWeb\BajajWeb.Domain\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\graduation project\BajajWeb\BajajWeb.Domain\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\graduation project\BajajWeb\BajajWeb.Domain\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\graduation project\BajajWeb\BajajWeb.Domain\obj\Debug\BajajWeb.Domain.csproj.AssemblyReference.cache
+E:\graduation project\BajajWeb\BajajWeb.Domain\obj\Debug\BajajWeb.Domain.csproj.CoreCompileInputs.cache
+E:\graduation project\BajajWeb\BajajWeb.Domain\obj\Debug\BajajWeb.Domain.csproj.CopyComplete
+E:\graduation project\BajajWeb\BajajWeb.Domain\obj\Debug\BajajWeb.Domian.dll
+E:\graduation project\BajajWeb\BajajWeb.Domain\obj\Debug\BajajWeb.Domian.pdb
