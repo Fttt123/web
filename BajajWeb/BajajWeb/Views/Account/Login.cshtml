@@ -1,0 +1,67 @@
+﻿@model BajajWeb.Domain.ViewModels.Account.LoginViewModel;
+@addTagHelper *,DNTCaptcha.Core
+
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Вход в аккаунт";
+}
+<link href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css " rel="stylesheet">
+<div style="padding: 40px;"></div>
+
+<div class="container py-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <span class="anchor"></span>
+                    <div class="card card-account card-outline-secondary border border-white">
+                        <div class="card-header">
+                            <h3 class="mb-0 text-center ParagraphHome">Вход в аккаунт</h3>
+                        </div>
+                        <div class="card-body">
+                            <form autocomplete="on" method="post" asp-controller="Account" asp-action="Login">
+                                <div asp-validation-summary="All" style="font-size:23px; font-family:Impact" class="text-danger text-center"></div>
+                                <div class="form-group">
+                                    <input asp-for="Login" placeholder="Логин" class="form-control textbox-dg font-weight-bold text-center" type="text">
+                                </div>
+                                <input asp-for="NumMistakes" value="@Model.NumMistakes" hidden="hidden" />
+                                <br>
+                                <div class="form-group">
+                                    <input autocomplete="password" asp-for="password" placeholder="Пароль" class="form-control textbox-dg font-weight-bold text-center" type="password">
+                                </div>
+                                <br>
+                                @if (Model.NumMistakes >= 3)
+                                {
+                                    <dnt-captcha asp-captcha-generator-max="99999"
+                                             asp-captcha-generator-language="English"
+                                             asp-use-relative-urls="true"
+                                             asp-placeholder="Введите капчу"
+                                             asp-captcha-generator-display-mode="ShowDigits"
+                                             asp-validation-error-message="Введите капчу"
+                                             asp-font-name="Tahoma"
+                                             asp-font-size="20"
+                                             asp-fore-color="#333333"
+                                             asp-back-color="#ccc"
+                                             asp-text-box-class="form-control textbox-dg font-weight-bold text-center"
+                                             asp-text-box-template="<span class='input-group-prepend'> <span class='card-body'></span></span>{0}"
+                                             asp-validation-message-class="text-danger" />
+
+                                }
+                                <br>
+                                <div class="d-grid gap-2 d-md-block float-right">
+                                    <a asp-controller="Account" asp-action="Register" class="btn btn-primary" type="button">Регистрация</a>
+                                    <button type="submit" class="btn btn-success">Войти</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>

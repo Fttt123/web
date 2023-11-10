@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - MotorcycleShop</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="~/css/card.css" rel="stylesheet" />
+    <link href="~/css/label.css" rel="stylesheet" />
+    <link href="~/css/menu.css" rel="stylesheet" />
+    <link href="~/css/paragraph.css" rel="stylesheet" />
+</head>
+<body>
+    @if (ViewBag.ShowHeader != false)
+    {
+        <header>
+            <nav class="navbar navbar-expand-lg" style="background-color: white;">
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index"><span style="color:#46394B; font-family: Impact, fantasy; font-size:30px; background-color:white; border-radius:10px; margin-left:100px;">Bajaj</span></a>
+                <button class="navbar-toggler badge-light" style="border-radius:10px;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-Modelet-down-square-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 4a.5.5 0 0 0-.374.832l4 4.5a.5.5 0 0 0 .748 0l4-4.5A.5.5 0 0 0 12 6H4z" /> />
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        @if (!User.Identity.IsAuthenticated)
+                        {
+                            <div class="dropdown">
+                                <button class="dropbtn">Аккаунт</button>
+                                <div class="dropdown-content">
+                                    <a class="nav-link active" asp-controller="Account" asp-action="Login">
+                                        Вход
+                                    </a>
+                                    <a class="nav-link active" asp-controller="Account" asp-action="Register">
+                                        Регистрация
+                                    </a>
+                                </div>
+                            </div>
+                        }
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <div class="dropdown">
+                                <button class="dropbtn">Мотосалон</button>
+                                <div class="dropdown-content">
+                                    <a class="nav-link active" asp-controller="Model" asp-action="GetModels">
+                                        Список
+                                    </a>
+                                    <a class="nav-link active" asp-controller="Cart" asp-action="Comparison">
+                                        Сравнения
+                                    </a>
+                                </div>
+                            </div>
+                        }
+                        <form method="get" action="@Url.Action("aboutUs")">
+                        <div class="dropdown">
+                            <button class="dropbtn" asp-controller="Home" asp-action="aboutUs">
+                                О нас
+                            </button>
+                        </div>
+                        </form>
+                    </ul>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <ui class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <a asp-controller="Cart" asp-action="Detail">
+                            <svg style="color: black; margin-right:25px;" xmlns="http://www.w3.org/2000/svg" width="37" height="37" fill="currentColor" class="bi bi-basket2-fill" viewBox="0 0 16 16">
+                            <path d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383L5.93 1.757zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1z" />
+                        </svg>
+                    </a>
+
+                    <a asp-controller="Account" asp-action="Detail">
+                            <svg style="color: black; margin-right:25px;" xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                        </svg>
+                    </a>
+
+                    <form method="post" asp-controller="Account" asp-action="Logout">
+                            <input class="btn btn-danger rounded" style=" margin-right:100px; font-weight: bold; font-size:20px;" type="submit" value="Выход" />
+                    </form>
+                    </ui>
+                }
+            </div>
+        </nav>
+    </header>
+    }
+    <div class="container-fluid col-xl-12">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+    <div class="modal fade" id="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Информация</h5>
+                </div>
+                <div class="modal-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-close btn-danger" data-bs-dismiss="modal"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/modal.js"></script>
+
+    @await RenderSectionAsync("pageScripts", required: false)
+</body>
+</html>
+
+<style type="text/css">
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #F5F5F5;
+    }
+
+    header {
+        position: relative;
+    }
+
+    .navbar {
+        box-shadow: 0px 1px 7px rgba(0,0,0,0.2);
+    }
+
+    .navbar-brand {
+        font-size: 30px;
+        font-family: Impact, fantasy;
+        color: #46394B;
+        margin-left: 100px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 15px 20px;
+    }
+
+    .navbar-toggler {
+        border-radius: 10px;
+    }
+
+    .bi-Modelet-down-square-fill {
+        width: 1em;
+        height: 1em;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropbtn {
+        background-color: white;
+        color: black;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+            .dropdown-content a:hover {
+                background-color: #ddd;
+            }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: #f1f1f1;
+    }
+
+    .container-fluid {
+        margin-top: 20px;
+    }
+
+    h5.modal-title {
+        font-weight: bold;
+        color: #363636;
+    }
+
+    .modal-body {
+        color: #363636;
+    }
+
+    .btn-close.btn-danger {
+        background-color: #DC3545 !important;
+        border-color: #DC3545 !important;
+    }
+
+    .btn-danger {
+        background-color: #DC3545;
+        border-color: #DC3545;
+    }
+
+        .btn-danger:hover {
+            background-color: #C82333;
+            border-color: #C82333;
+        }
+
+    .btn-outline-secondary {
+        color: #6C757D;
+        border-color: #6C757D;
+    }
+
+        .btn-outline-secondary:hover {
+            background-color: #6C757D;
+            border-color: #6C757D;
+            color: white;
+        }
+</style>

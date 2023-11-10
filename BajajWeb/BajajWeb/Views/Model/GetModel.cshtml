@@ -1,0 +1,128 @@
+﻿@model BajajWeb.Domain.Entity.FinalModel
+<form>
+<div class="col-md-12">
+    @if (Model.photos.Count() == 0)
+    {
+        <img src="https://autoplazahaiti.com/wp-content/uploads/2017/02/boxer-150-05-1024x582.jpg" class="card-img-top" alt="@Model.name">
+    }
+    else
+    {
+            <div class="gallery">
+                @foreach (var photo in Model.photos)
+                {
+                    <img src="data:image/jpeg;base64,@Convert.ToBase64String(photo.photo ?? Array.Empty<byte>())" class="card-img-top" alt="@Model.name" id="photo">
+                }
+        </div>
+    }
+</div>
+<br>
+<h5 class="card-title text-center">@Model?.mark @Model?.name</h5>
+<div class="card">
+    <div class="row">
+            <div class="card-body">
+                <p class="card-text"><b>Описание: </b>@Model?.description</p>
+                <p class="card-text"><b>Стоимость: </b>@Model?.retail_price ₽</p>
+                <p class="card-text"><small class="text-muted">Год выпуска - @Model?.years_of_release</small></p>
+            </div>
+            <div class="card-body">
+                <p class="card-text"><b>Описание: </b>@Model?.description</p>
+            </div>
+    </div>
+</div>
+    <br>
+<h5 class="card-title text-center">Характеристики</h5>
+<table id="cartTable" class="table">
+    <thead>
+        <tr>
+            <th><font color=#ffffff>Каьегория</font></th>
+            <th><font color=#ffffff>Характеристика</font></th>
+            <th><font color=#ffffff>Значение</font></th>
+            <th><font color=#ffffff>Единица измерения</font></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var character in Model.characteristics)
+{
+    <tr>
+        <td>@character.category_name</td>
+        <td>@character.characteristic_name</td>
+        <td>@character.value</td>
+        <td>@character.unit</td>
+    </tr>
+}
+    </tbody>
+</table>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Стоимость: @Model.retail_price.ToString("# руб")</li>
+        @if (@Model.motorcycles.Count() != 0 && User.Identity.IsAuthenticated)
+        {
+            <a asp-controller="Cart" asp-action="AddCart" asp-route-id="@Model.id" class="btn btn-success">В корзину</a>
+        }
+        else if (@Model.motorcycles.Count() == 0)
+        {
+            <li class="btn btn-danger">Товара нет в наличии</li>
+        }
+        else
+        {
+            <li class="btn btn-danger">Вы не авторизованы</li>
+        }
+    </ul>
+    <br>
+    <br>
+    <a asp-controller="Cart" asp-action="AddToComparison" asp-route-id="@Model.id" class="btn btn-primary">В Сравнения</a>
+</form>
+
+<style type="text/css">
+    .table {
+        width: 100%;
+        margin-bottom: 20px;
+        border: 5px solid #fff;
+        border-top: 5px solid #fff;
+        border-bottom: 3px solid #fff;
+        border-collapse: collapse;
+        outline: 3px solid #4f0070;
+        font-size: 15px;
+        background: #fff !important;
+    }
+
+        .table th {
+            font-weight: bold;
+            padding: 7px;
+            background: #4f0070;
+            border: none;
+            text-align: left;
+            font-size: 15px;
+            border-top: 3px solid #fff;
+            border-bottom: 3px solid #4f0070;
+        }
+
+        .table td {
+            padding: 7px;
+            border: none;
+            border-top: 3px solid #fff;
+            border-bottom: 3px solid #fff;
+            font-size: 15px;
+        }
+
+        .table tbody tr:nth-child(even) {
+            background: #f8f8f8 !important;
+        }
+
+    .gallery {
+        display: flex;
+        overflow-x: scroll;
+        margin: 20px 0;
+    }
+
+        .gallery img {
+            height: 200px;
+            width: auto;
+            margin-right: 10px;
+        }
+
+    #photo {
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+</style>

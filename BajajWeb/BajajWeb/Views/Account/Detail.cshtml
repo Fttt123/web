@@ -1,0 +1,158 @@
+﻿@model BajajWeb.Domain.ViewModels.Account.ProfileViewModel;
+
+@{
+    ViewBag.Title = "Профиль";
+    Layout = "_Layout";
+}
+<br />
+<h3 class="card-title">Данные аккаунта</h3>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <form id="profileFormId">
+                    <input asp-for="id" hidden="hidden" />
+                    <div class="mb-3">
+                        <label class="form-label text-black-50">Дата рождения</label>
+                        <input type="date" class="form-control" asp-for="date_of_birth">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label text-black-50">Имя</label>
+                        <input asp-for="name" class="form-control" type="text">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label text-black-50">Фамлия</label>
+                        <input asp-for="surname" class="form-control" type="text">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label text-black-50">Адрес электронной почты</label>
+                        <input type="email" class="form-control" asp-for="mail">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label text-black-50">Номер телевона</label>
+                        <input asp-for="phone_number" id="phone_number" class="form-control" type="tel" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" placeholder="+7(___)___-__-__">
+                    </div>
+                    <div class="card-buttons-group">
+                        <button class='btn btn-primary' id='saveProfileId'>Сохранить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <form id="accountFormId">
+                    <div class="mb-3">
+                        <label class="form-label text-black-50">Логин</label>
+                        <input type="text" class="form-control" asp-for="Login" disabled="disabled">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label text-black-50">Новый пароль</label>
+                        <input name="NewPassword" class="form-control textbox-dg font-weight-bold text-center" type="password">
+                    </div>
+                    <div class="card-buttons-group">
+                        <button class='btn btn-primary' id='saveAccountId'>Сохранить новый пароль</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+
+<script type="text/javascript">
+    function setCursorPosition(pos, e) {
+        e.focus();
+        if (e.setSelectionRange) e.setSelectionRange(pos, pos);
+        else if (e.createTextRange) {
+            var range = e.createTextRange();
+            range.collapse(true);
+            range.moveEnd("character", pos);
+            range.moveStart("character", pos);
+            range.select()
+        }
+    }
+
+    function mask(e) {
+        var matrix = this.placeholder,
+            i = 0,
+            def = matrix.replace(/\D/g, ""),
+            val = this.value.replace(/\D/g, "");
+        def.length >= val.length && (val = def);
+        matrix = matrix.replace(/[_\d]/g, function (a) {
+            return val.charAt(i++) || "_"
+        });
+        this.value = matrix;
+        i = matrix.lastIndexOf(val.substr(-1));
+        i < matrix.length && matrix != this.placeholder ? i++ : i = matrix.indexOf("_");
+        setCursorPosition(i, this)
+    }
+    window.addEventListener("DOMContentLoaded", function () {
+        var input = document.querySelector("#phone_number");
+        input.addEventListener("input", mask, false);
+        input.focus();
+        setCursorPosition(3, input);
+    });
+</script>
+
+@section pageScripts
+    {
+    <script>
+        $('#saveProfileId').on('click', function (e) {
+            e.preventDefault();
+            const data = $('#profileFormId').serialize()
+            $.ajax({
+                url: '@Url.Action("Save", "Account")',
+                type: 'POST',
+                data: data,
+                success: function (response) {
+                    Swal.fire({
+                        title: 'Информация',
+                        text: response.description,
+                        icon: 'success',
+                        confirmButtonText: 'Окей'
+                    })
+                },
+                error: function (data) {
+                    Swal.fire({
+                        title: 'Информация',
+                        text: 'Ошибка валидации ',
+                        icon: 'error',
+                        confirmButtonText: 'Окей'
+                    })
+                }
+            });
+        });
+
+        $('#saveAccountId').on('click', function (e) {
+            e.preventDefault();
+
+            $('#Login').removeAttr('disabled')
+            const data = $('#accountFormId').serialize()
+            $('#Login').attr('disabled', 'disabled')
+
+            $.ajax({
+                url: '@Url.Action("ChangePassword", "Account")',
+                type: 'POST',
+                data: data,
+                success: function (response) {
+                    Swal.fire({
+                        title: 'Информация',
+                        text: response.description,
+                        icon: 'success',
+                        confirmButtonText: 'Окей'
+                    })
+                },
+                error: function (response) {
+                    Swal.fire({
+                        title: 'Информация',
+                        text: response.responseJSON.errorMessage,
+                        icon: 'error',
+                        confirmButtonText: 'Окей'
+                    })
+                }
+            });
+        });
+    </script>
+}

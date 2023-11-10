@@ -1,0 +1,63 @@
+﻿@model List<BajajWeb.Domain.Entity.Cart>
+
+@{
+    ViewBag.Title = "Корзина";
+    Layout = "_Layout";
+}
+
+@if (Model == null || Model.Count == 0)
+{
+    <div style="padding:40px;"></div>
+    <div class="card col-md-12">
+        <div class="row g-0">
+            <div class="col-md-12">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Корзина пуста</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="row">
+        <h5 class="card-title text-center">Ваша корзина</h5>
+        @foreach (var item in Model)
+        {
+            <div class="row row-cols-1 col-md-4 text-center">
+                    <div class="col" style="padding: 10px;">
+                        <div class="card">
+                            <div class="col-md-12">
+                                @if (item?.model.photos.Count() != 0)
+                                {
+                                    <img src="data:image/jpeg;base64,@Convert.ToBase64String(item?.model.photos.First().photo ?? Array.Empty<byte>())"
+                                    class="img-fluid rounded-start rounded">
+                                }
+                                else
+                                {
+                                    <img src="https://autoplazahaiti.com/wp-content/uploads/2017/02/boxer-150-05-1024x582.jpg" class="card-img-top">
+                                }
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Название мотоцикла:@item.model.mark @item.model.name</h5>
+                                <li class="list-group-item">Цена: @item.model.retail_price</li>
+                                @if (item.count > 1)
+                                {
+                                    <li class="list-group-item">Количество: @item.count</li>
+                                }
+                            </div>
+                        <ul class="list-group list-group-flush">
+                        </ul>
+                        <div class="card-body">
+                            <button class="btn btn-primary" onclick="openModal({ url: '/Order/CreateOrder', data: '@item.id' })"
+                                    data-toggle="ajax-modal" data-target="Modal">
+                                Оформить покупку
+                            </button>
+                            <a asp-controller="Cart" asp-action="Delete" asp-route-id="@item.id" class="btn btn-danger">Удалить</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

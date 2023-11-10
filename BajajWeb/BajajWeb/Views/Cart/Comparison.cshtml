@@ -1,0 +1,116 @@
+﻿@model List<BajajWeb.Domain.Entity.Cart>
+
+@{
+    ViewBag.Title = "Корзина";
+    Layout = "_Layout";
+}
+
+<div class="card">
+@if (Model == null || Model.Count == 0)
+{
+    <div style="padding:40px;"></div>
+    <div class="card col-md-12">
+        <div class="row g-0">
+            <div class="col-md-12">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Вы не выбрали товары для сравнения</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <table id="cartTable" class="table">
+    <thead>
+        <tr>
+                    <th><font color=#ffffff>Главное фото</font></th>
+                    <th><font color=#ffffff>Название</font></th>
+                    <th><font color=#ffffff>Марка</font></th>
+                    <th><font color=#ffffff>Год выпуска</font></th>
+                    <th><font color=#ffffff>Розничная цена</font></th>
+                    <th><font color=#ffffff>Описание</font></th>
+                @foreach (var characteristic in Model.SelectMany(m => m.model.characteristics).Select(c => c.characteristic_name).Distinct())
+            {
+                        <th><label><font color=#ffffff>@characteristic</font></label></th>
+            }
+                    <th><font color=#ffffff>Удалить из сравнений</font></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>
+                    <div class="col-md-8">
+                        @if (product.model.photos.Count() != 0)
+                        {
+                            <img src="data:image/jpeg;base64,@Convert.ToBase64String(product?.model.photos.First().photo ?? Array.Empty<byte>())"
+                                 class="img-fluid rounded-start rounded">
+                        }
+                        else
+                        {
+                            <img src="https://autoplazahaiti.com/wp-content/uploads/2017/02/boxer-150-05-1024x582.jpg" class="card-img-top">
+                        }
+                    </div>
+                </td>
+                <td>@product.model.name</td>
+                <td>@product.model.mark</td>
+                <td>@product.model.years_of_release</td>
+                <td>@product.model.retail_price</td>
+                <td>@product.model.description</td>
+                    @foreach (var characteristic in Model.SelectMany(m => m.model.characteristics).Select(c => c.characteristic_name).Distinct())
+                    {
+                        <td>
+                            @foreach (var modelCharacteristic in product.model.characteristics)
+                            {
+                                if (modelCharacteristic.characteristic_name == characteristic)
+                                {
+                                    @modelCharacteristic.value
+                                }
+                            }
+                        </td>
+                    }
+                        <td><a asp-controller="Cart" asp-action="DeleteFromComparison" asp-route-id="@product.id" class="btn btn-danger">Удалить</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+}
+</div>
+<style type="text/css">
+    .table {
+        width: 100%;
+        margin-bottom: 20px;
+        border: 5px solid #fff;
+        border-top: 5px solid #fff;
+        border-bottom: 3px solid #fff;
+        border-collapse: collapse;
+        outline: 3px solid #4f0070;
+        font-size: 15px;
+        background: #fff !important;
+    }
+
+        .table th {
+            font-weight: bold;
+            padding: 7px;
+            background: #4f0070;
+            border: none;
+            text-align: left;
+            font-size: 15px;
+            border-top: 3px solid #fff;
+            border-bottom: 3px solid #4f0070;
+        }
+
+        .table td {
+            padding: 7px;
+            border: none;
+            border-top: 3px solid #fff;
+            border-bottom: 3px solid #fff;
+            font-size: 15px;
+        }
+
+        .table tbody tr:nth-child(even) {
+            background: #f8f8f8 !important;
+        }
+</style>

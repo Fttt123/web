@@ -1,0 +1,73 @@
+﻿@model BajajWeb.Domain.ViewModels.Order.OrderViewModel
+
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Оформление";
+}
+
+    <div class="col-sm-8">
+        <div class="card">
+            <form id="orderFormId">
+                <input asp-for="id_motorcycle" hidden />
+                <div asp-validation-summary="All" style="font-size:23px; font-family:Impact, serif" class="text-danger text-center"></div>
+                <h4 class="text-center">Выберете как будите оплачивать товар</h4>
+                <hr/>
+                <div class="row">
+                    <div class="form-control col-md-4 float-center">
+                        <select asp-for="@Model.id_payment_method">
+                            <option value="1">При получении</option>
+                            <option value="2">Предоплата</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <div class="list-group list-group-flush">
+                    <button class="btn btn-success float-center" id="createOrderId">Отправить</button>
+                </div>
+            </form>
+            <br>
+            <div class="card-body">
+                <h5 class="card-title">Инструкция получения</h5>
+                <p class="card-text">Как проходит получение товара:</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">○ Делаете заказ</li>
+                <li class="list-group-item">○ Мы звоним и уточняем у вас информацию</li>
+                <li class="list-group-item">○ Вы приезжаете на место</li>
+            </ul>
+            <div class="card-body">
+                <a asp-controller="Home" asp-action="Index" class="card-link">Главная</a>
+                <a asp-controller="Car" asp-action="GetCars" class="card-link">Список мотоциклов</a>
+            </div>
+        </div>
+    </div>
+@section pageScripts
+    {
+    <script>
+        $('#createOrderId').on('click', function (e) {
+            e.preventDefault();
+            const model = $('#orderFormId').serialize();
+            $.ajax({
+                url: '@Url.Action("CreateOrder")',
+                type: 'POST',
+                data: model,
+                success: function (response) {
+                    Swal.fire({
+                        title: 'Информация',
+                        text: response.description,
+                        icon: 'success',
+                        confirmButtonText: 'Окей'
+                    })
+                },
+                error: function (response) {
+                    Swal.fire({
+                        title: 'Информация',
+                        text: 'Ошибка валидации | Заполните все поля',
+                        icon: 'error',
+                        confirmButtonText: 'Окей'
+                    })
+                }
+            })
+        });
+    </script>
+}

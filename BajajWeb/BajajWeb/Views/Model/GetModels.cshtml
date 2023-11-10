@@ -1,0 +1,171 @@
+﻿@model BajajWeb.Domain.ViewModels.Models.ModelViewModel
+@{
+    ViewData["Title"] = "Товары";
+    Layout = "_Layout";
+}
+
+@{
+    var cardStyle = "col-md-12";
+    if (Model != null)
+    {
+        switch (Model.FinalModels.Count())
+        {
+            case 2:
+                cardStyle = "col-md-6";
+                break;
+            case 3:
+                cardStyle = "col-md-4";
+                break;
+        }
+    }
+}
+
+<style>
+    .card-buttons-group {
+        text-align: right;
+        padding: 10px;
+    }
+</style>
+
+<div style="padding: 10px;"></div>
+<div class="row">
+    <div class="col-md-12">
+        <form method="post" asp-action="GetModels">
+            <div class="input-group mb-3">
+                <input asp-for="search" type="search" name="search" class="form-control" placeholder="Поиск товаров" aria-label="Поиск товаров">
+                <button class="btn btn-outline-secondary" type="submit">Найти</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="container">
+    <div class="left">
+        <div id="filters">
+            <h4>Фильтры</h4>
+            <form method="post" asp-action="GetModels">
+                <input asp-for="search" type="search" name="search" value="@Model.search" hidden="hidden">
+                <div class="form-group">
+                    <label>Цена</label>
+                    <div class="input-group">
+                        <input asp-for="minPrice" type="number" name="minPrice" class="form-control" placeholder="Мин. цена" step="1" min="0">
+                        <span class="input-group-text">-</span>
+                        <input asp-for="maxPrice" type="number" name="maxPrice" class="form-control" placeholder="Макс. цена" step="1" min="0">
+                    </div>
+                </div>
+                <br>
+                @foreach (var characteristic in Model.FinalModels.SelectMany(m => m.characteristics).Select(c => c.characteristic_name).Distinct())
+                {
+                    <div class="form-group">
+                        <label>@characteristic</label>
+                        <select name="@characteristic" class="form-control">
+                            <option value="">Выберите значение</option>
+                            @foreach (var value in Model.FinalModels.SelectMany(m => m.characteristics.Where(c => c.characteristic_name == characteristic)).Select(c => c.value).Distinct())
+                            {
+                                <option value="@value">@value</option>
+                            }
+                        </select>
+                    </div>
+                }
+                <br>
+                <button type="submit" class="btn btn-primary">Применить</button>
+                <br>
+                <br>
+            </form>
+            <form method="get" action="@Url.Action("GetModels")">
+                <button type="submit" class="btn btn-danger">Отменить</button>
+            </form>
+            
+        </div>
+    </div>
+    <div class="right">
+        <div class="row row-cols-md-3 col-xs-8">
+            @if (Model.FinalModels.Count() == 0)
+            {
+                <div class="card col-md-12">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://autoplazahaiti.com/wp-content/uploads/2017/02/boxer-150-05-1024x582.jpg"
+                                 class="img-fluid rounded-start rounded">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Список пуст</h5>
+                                <p class="card-text">
+                                    Таких товаров нет.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+            else
+            {
+                @foreach (var models in Model.FinalModels)
+                {
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            @if (models.photos.Count() == 0)
+                            {
+                                <img src="https://autoplazahaiti.com/wp-content/uploads/2017/02/boxer-150-05-1024x582.jpg" class="card-img-top" alt="@models.name">
+                            }
+                            else
+                            {
+                                <img src="data:image/jpeg;base64,@Convert.ToBase64String(models.photos.First().photo ?? Array.Empty<byte>())" class="card-img-top" alt="@models.name">
+                            }
+                            <div class="card-body">
+                                <h5 class="card-title">@models.mark @models.name</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Стоимость: @models.retail_price.ToString("# руб")</li>
+                                @if (@models.motorcycles.Count() != 0 && User.Identity.IsAuthenticated)
+                                {
+                                    <a asp-controller="Cart" asp-action="AddCart" asp-route-id="@models.id" class="btn btn-success">В корзину</a>
+                                }
+                                else if (@models.motorcycles.Count() == 0)
+                                {
+                                    <li class="btn btn-danger">Товара нет в наличии</li>
+                                }
+                                else
+                                {
+                                    <li class="btn btn-danger">Вы не авторизованы</li>
+                                }
+                            </ul>
+                            <a asp-controller="Cart" asp-action="AddToComparison" asp-route-id="@models.id" class="btn btn-primary">В Сравнения</a>
+                            <br>
+                            <br>
+                            <div class="card-body">
+                                <button class="btn btn-primary" onclick="openModal({ url: '/Model/GetModel', data: '@models.id' })"
+                                        data-toggle="ajax-modal" data-target="Modal">
+                                    Открыть
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    html, body {
+        width: 100%;
+    }
+
+    .container {
+        display: flex;
+        min-width: 100%;
+    }
+
+    .left {
+        flex-basis: 20%;
+        background-color: #eee;
+        padding: 20px;
+    }
+
+    .right {
+        flex-basis: 80%;
+        background-color: #ccc;
+        padding: 10px;
+    }
+</style>

@@ -1,0 +1,124 @@
+﻿@model IEnumerable<BajajWeb.Domain.Entity.FinalModel> 
+@{
+    ViewData["Title"] = "Главная";
+    Layout = "_Layout";
+}
+
+<div style="padding: 10px;"></div>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var models in Model)
+    {
+        <div class="col mb-4">
+            <div class="card h-100">
+                @if (models.photos.Count() == 0)
+                {
+                    <img src="https://autoplazahaiti.com/wp-content/uploads/2017/02/boxer-150-05-1024x582.jpg" class="card-img-top card-image" alt="@models.name">
+                }
+                else
+                {
+                    <img src="data:image/jpeg;base64,@Convert.ToBase64String(models.photos.First().photo ?? Array.Empty<byte>())" class="card-img-top card-image" alt="@models.name">
+                }
+                <div class="card-body">
+                    <h5 class="card-title">@models.mark @models.name</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Стоимость: @models.retail_price.ToString("# руб")</li>
+                    @if (@models.motorcycles.Count() != 0 && User.Identity.IsAuthenticated)
+                    {
+                        <a asp-controller="Cart" asp-action="AddCart" asp-route-id="@models.id" class="btn btn-success">В корзину</a>
+                    }
+                    else if (@models.motorcycles.Count() == 0)
+                    {
+                        <li class="btn btn-danger">Товара нет в наличии</li>
+                    }
+                    else
+                    {
+                        <li class="btn btn-danger">Вы не авторизованы</li>
+                    }
+                </ul>
+                <div class="card-body">
+                    <button class="btn btn-primary" onclick="openModal({ url: '/Model/GetModel', data: '@models.id' })"
+                            data-toggle="ajax-modal" data-target="Modal">
+                        Открыть
+                    </button>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<div style="padding: 10px;"></div>
+<div class="card col-md-12">
+    <div class="card-body">
+        <h5 class="card-title text-center">Добро пожаловать на сайт Bajaj</h5>
+        <p class="card-text">
+            На этом сайте вы сможете выбрать подходящую для вас модель мотоцикла, посмотреть его характеристики, сравнить
+            с другими моделями, а так же можете приобрести эту модель.
+        </p>
+    </div>
+</div>
+
+<div style="padding: 10px;"></div>
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Чем занимаеться наш сервис?</h5>
+        <p class="card-text">
+            Мы закупает и продаем мототранспорт индийской фирмы Bajaj Auto
+        </p>
+    </div>
+</div>
+
+<div style="padding: 10px;"></div>
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Получение товара:</h5>
+    </div>
+    <ul class="list-group list-group-flush" id="ulListId">
+        <li class="list-group-item">Сперва выбирете товар в списке мотоциклов</li>
+        <li class="list-group-item">Потом добавте его в крозину</li>
+        <li class="list-group-item">Затем в корзине выберете оформить заказ</li>
+        <li class="list-group-item">После вам следует выбрать способ оплаты</li>
+        <li class="list-group-item">Ожидайте звонка от нашего менеджера для уточнения деталей заказа</li>
+        <li class="list-group-item">Приходите для получения заказа</li>
+    </ul>
+    <div class="card-body">
+        <button class="btn btn-danger" id="btnHideId">Скрыть</button>
+        <button class="btn btn-primary" id="btnShowId">Показать</button>
+    </div>
+</div>
+
+@section pageScripts
+    {
+    <script>
+        $('#btnHideId').click(function () {
+            $('#ulListId').hide(2000);
+        });
+
+        $('#btnShowId').click(function () {
+            $('#ulListId').show(2000);
+        });
+    </script>
+}
+
+<style type="text/css">
+    .card-image {
+        filter: grayscale(0.5);
+        transition: 0.5s;
+    }
+
+        .card-image:hover {
+            filter: grayscale(0);
+        }
+
+    .btn {
+        margin-right: 10px;
+    }
+
+    #ulListId {
+        display: none;
+    }
+
+    .card-text {
+        margin-bottom: 0;
+    }
+</style>
