@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\graduation project\\BajajWeb\\BajajWeb\\BajajWeb.csproj": {}
+  },
+  "projects": {
+    "E:\\graduation project\\BajajWeb\\BajajWeb.DAL\\BajajWeb.DAL.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\graduation project\\BajajWeb\\BajajWeb.DAL\\BajajWeb.DAL.csproj",
+        "projectName": "BajajWeb.DAL",
+        "projectPath": "E:\\graduation project\\BajajWeb\\BajajWeb.DAL\\BajajWeb.DAL.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "E:\\graduation project\\BajajWeb\\BajajWeb.Domain\\BajajWeb.Domain.csproj": {
+                "projectPath": "E:\\graduation project\\BajajWeb\\BajajWeb.Domain\\BajajWeb.Domain.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "E:\\graduation project\\BajajWeb\\BajajWeb.Domain\\BajajWeb.Domain.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\graduation project\\BajajWeb\\BajajWeb.Domain\\BajajWeb.Domain.csproj",
+        "projectName": "BajajWeb.Domain",
+        "projectPath": "E:\\graduation project\\BajajWeb\\BajajWeb.Domain\\BajajWeb.Domain.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\graduation project\\BajajWeb\\BajajWeb.Service\\BajajWeb.Service.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\graduation project\\BajajWeb\\BajajWeb.Service\\BajajWeb.Service.csproj",
+        "projectName": "BajajWeb.Service",
+        "projectPath": "E:\\graduation project\\BajajWeb\\BajajWeb.Service\\BajajWeb.Service.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "E:\\graduation project\\BajajWeb\\BajajWeb.DAL\\BajajWeb.DAL.csproj": {
+                "projectPath": "E:\\graduation project\\BajajWeb\\BajajWeb.DAL\\BajajWeb.DAL.csproj"
+              },
+              "E:\\graduation project\\BajajWeb\\BajajWeb.Domain\\BajajWeb.Domain.csproj": {
+                "projectPath": "E:\\graduation project\\BajajWeb\\BajajWeb.Domain\\BajajWeb.Domain.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "E:\\graduation project\\BajajWeb\\BajajWeb\\BajajWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\graduation project\\BajajWeb\\BajajWeb\\BajajWeb.csproj",
+        "projectName": "BajajWeb",
+        "projectPath": "E:\\graduation project\\BajajWeb\\BajajWeb\\BajajWeb.csproj",
+        "packagesPath": "C:\\Users\\agafo\\.nuget\\packages\\",
+        "outputPath": "E:\\graduation project\\BajajWeb\\BajajWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\agafo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\graduation project\\BajajWeb\\BajajWeb.DAL\\BajajWeb.DAL.csproj": {
+                "projectPath": "E:\\graduation project\\BajajWeb\\BajajWeb.DAL\\BajajWeb.DAL.csproj"
+              },
+              "E:\\graduation project\\BajajWeb\\BajajWeb.Domain\\BajajWeb.Domain.csproj": {
+                "projectPath": "E:\\graduation project\\BajajWeb\\BajajWeb.Domain\\BajajWeb.Domain.csproj"
+              },
+              "E:\\graduation project\\BajajWeb\\BajajWeb.Service\\BajajWeb.Service.csproj": {
+                "projectPath": "E:\\graduation project\\BajajWeb\\BajajWeb.Service\\BajajWeb.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DNTCaptcha.Core": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

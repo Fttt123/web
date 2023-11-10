@@ -1,0 +1,549 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BajajWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BajajWeb.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\ReceiptTemplate.html",
+      "PackagePath": "staticwebassets\\ReceiptTemplate.html"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\css\\card.css",
+      "PackagePath": "staticwebassets\\css\\card.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\css\\label.css",
+      "PackagePath": "staticwebassets\\css\\label.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\css\\menu.css",
+      "PackagePath": "staticwebassets\\css\\menu.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\css\\paragraph.css",
+      "PackagePath": "staticwebassets\\css\\paragraph.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\js\\modal.js",
+      "PackagePath": "staticwebassets\\js\\modal.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\css\\select2.css",
+      "PackagePath": "staticwebassets\\lib\\select2\\css\\select2.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\lib\\select2\\css\\select2.min.css"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\af.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\af.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\ar.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ar.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\az.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\az.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\bg.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\bg.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\bn.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\bn.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\bs.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\bs.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\ca.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ca.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\cs.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\cs.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\da.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\da.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\de.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\de.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\dsb.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\dsb.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\el.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\el.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\en.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\en.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\es.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\es.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\et.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\et.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\eu.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\eu.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\fa.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\fa.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\fi.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\fi.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\fr.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\fr.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\gl.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\gl.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\he.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\he.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\hi.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\hi.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\hr.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\hr.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\hsb.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\hsb.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\hu.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\hu.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\hy.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\hy.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\id.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\id.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\is.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\is.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\it.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\it.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\ja.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ja.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\ka.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ka.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\km.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\km.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\ko.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ko.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\lt.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\lt.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\lv.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\lv.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\mk.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\mk.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\ms.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ms.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\nb.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\nb.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\ne.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ne.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\nl.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\nl.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\pl.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\pl.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\ps.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ps.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\pt-BR.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\pt-BR.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\pt.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\pt.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\ro.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ro.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\ru.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ru.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\sk.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\sk.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\sl.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\sl.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\sq.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\sq.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\sr-Cyrl.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\sr-Cyrl.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\sr.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\sr.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\sv.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\sv.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\th.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\th.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\tk.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\tk.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\tr.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\tr.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\uk.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\uk.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\vi.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\vi.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\zh-CN.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\zh-CN.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\i18n\\zh-TW.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\zh-TW.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\select2.full.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\select2.full.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\select2.full.min.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\select2.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\select2.js"
+    },
+    {
+      "Id": "E:\\graduation project\\BajajWeb\\BajajWeb\\wwwroot\\lib\\select2\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\select2.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BajajWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BajajWeb.props",
+      "PackagePath": "build\\BajajWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BajajWeb.props",
+      "PackagePath": "buildMultiTargeting\\BajajWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BajajWeb.props",
+      "PackagePath": "buildTransitive\\BajajWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,400 @@
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\appsettings.Development.json
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\appsettings.json
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.staticwebassets.runtime.json
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.exe
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.deps.json
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.runtimeconfig.json
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.pdb
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.Domian.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.Domian.pdb
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.csproj.AssemblyReference.cache
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.GeneratedMSBuildEditorConfig.editorconfig
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.AssemblyInfoInputs.cache
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.AssemblyInfo.cs
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.csproj.CoreCompileInputs.cache
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.MvcApplicationPartsAssemblyInfo.cache
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.RazorAssemblyInfo.cache
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.RazorAssemblyInfo.cs
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets\msbuild.BajajWeb.Microsoft.AspNetCore.StaticWebAssets.props
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets\msbuild.build.BajajWeb.props
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BajajWeb.props
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BajajWeb.props
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets.pack.json
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets.build.json
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets.development.json
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\scopedcss\bundle\BajajWeb.styles.css
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\scopedcss\projectbundle\BajajWeb.bundle.scp.css
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.csproj.CopyComplete
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.dll
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\refint\BajajWeb.dll
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.pdb
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.genruntimeconfig.cache
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\ref\BajajWeb.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Azure.Core.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Azure.Identity.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Drawing.Common.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Memory.Data.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Runtime.Caching.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Security.Permissions.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Windows.Extensions.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.DAL.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.DAL.pdb
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.DAL.dll.config
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.Service.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.Service.pdb
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.Service.dll.config
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\DNTCaptcha.Core.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\HarfBuzzSharp.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\SkiaSharp.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\SkiaSharp.HarfBuzz.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\osx\native\libSkiaSharp.dylib
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-arm64\native\libSkiaSharp.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x64\native\libSkiaSharp.dll
+F:\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x86\native\libSkiaSharp.dll
+F:\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.MvcApplicationPartsAssemblyInfo.cs
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\appsettings.Development.json
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\appsettings.json
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.staticwebassets.runtime.json
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.exe
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.deps.json
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.runtimeconfig.json
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.pdb
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Azure.Core.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Azure.Identity.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\DNTCaptcha.Core.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\HarfBuzzSharp.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\SkiaSharp.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\SkiaSharp.HarfBuzz.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Memory.Data.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\osx\native\libSkiaSharp.dylib
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-arm64\native\libSkiaSharp.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x64\native\libSkiaSharp.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x86\native\libSkiaSharp.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.DAL.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.Domian.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.Service.dll
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.DAL.pdb
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.DAL.dll.config
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.Domian.pdb
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.Service.pdb
+E:\FCopy\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.Service.dll.config
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.csproj.AssemblyReference.cache
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.GeneratedMSBuildEditorConfig.editorconfig
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.AssemblyInfoInputs.cache
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.AssemblyInfo.cs
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.csproj.CoreCompileInputs.cache
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.MvcApplicationPartsAssemblyInfo.cs
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.MvcApplicationPartsAssemblyInfo.cache
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.RazorAssemblyInfo.cache
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.RazorAssemblyInfo.cs
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets\msbuild.BajajWeb.Microsoft.AspNetCore.StaticWebAssets.props
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets\msbuild.build.BajajWeb.props
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BajajWeb.props
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BajajWeb.props
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets.pack.json
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets.build.json
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets.development.json
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\scopedcss\bundle\BajajWeb.styles.css
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\scopedcss\projectbundle\BajajWeb.bundle.scp.css
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.csproj.CopyComplete
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.dll
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\refint\BajajWeb.dll
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.pdb
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.genruntimeconfig.cache
+E:\FCopy\BajajWeb\BajajWeb\obj\Debug\net6.0\ref\BajajWeb.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\appsettings.Development.json
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\appsettings.json
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.staticwebassets.runtime.json
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.exe
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.deps.json
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.runtimeconfig.json
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.pdb
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Azure.Core.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Azure.Identity.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\DNTCaptcha.Core.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\HarfBuzzSharp.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\SkiaSharp.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\SkiaSharp.HarfBuzz.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Memory.Data.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\osx\native\libSkiaSharp.dylib
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-arm64\native\libSkiaSharp.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x64\native\libSkiaSharp.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x86\native\libSkiaSharp.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.DAL.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.Domian.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.Service.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.DAL.pdb
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.DAL.dll.config
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.Domian.pdb
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.Service.pdb
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.Service.dll.config
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.csproj.AssemblyReference.cache
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.GeneratedMSBuildEditorConfig.editorconfig
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.AssemblyInfoInputs.cache
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.AssemblyInfo.cs
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.csproj.CoreCompileInputs.cache
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.MvcApplicationPartsAssemblyInfo.cs
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.MvcApplicationPartsAssemblyInfo.cache
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.RazorAssemblyInfo.cache
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.RazorAssemblyInfo.cs
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets\msbuild.BajajWeb.Microsoft.AspNetCore.StaticWebAssets.props
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets\msbuild.build.BajajWeb.props
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BajajWeb.props
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BajajWeb.props
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets.pack.json
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets.build.json
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets.development.json
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\scopedcss\bundle\BajajWeb.styles.css
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\scopedcss\projectbundle\BajajWeb.bundle.scp.css
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.csproj.CopyComplete
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\refint\BajajWeb.dll
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.pdb
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.genruntimeconfig.cache
+E:\FCopy\Дипломный проект\BajajWeb\BajajWeb\obj\Debug\net6.0\ref\BajajWeb.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\appsettings.Development.json
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\appsettings.json
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.staticwebassets.runtime.json
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.exe
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.deps.json
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.runtimeconfig.json
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.pdb
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Azure.Core.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Azure.Identity.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\DNTCaptcha.Core.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\HarfBuzzSharp.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\SkiaSharp.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\SkiaSharp.HarfBuzz.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Memory.Data.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\osx\native\libSkiaSharp.dylib
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-arm64\native\libSkiaSharp.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x64\native\libSkiaSharp.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win-x86\native\libSkiaSharp.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.DAL.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.Domian.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.Service.dll
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.DAL.pdb
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.DAL.dll.config
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.Domian.pdb
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.Service.pdb
+E:\graduation project\BajajWeb\BajajWeb\bin\Debug\net6.0\BajajWeb.Service.dll.config
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.csproj.AssemblyReference.cache
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.GeneratedMSBuildEditorConfig.editorconfig
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.AssemblyInfoInputs.cache
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.AssemblyInfo.cs
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.csproj.CoreCompileInputs.cache
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.MvcApplicationPartsAssemblyInfo.cs
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.MvcApplicationPartsAssemblyInfo.cache
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.RazorAssemblyInfo.cache
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.RazorAssemblyInfo.cs
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets\msbuild.BajajWeb.Microsoft.AspNetCore.StaticWebAssets.props
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets\msbuild.build.BajajWeb.props
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BajajWeb.props
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BajajWeb.props
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets.pack.json
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets.build.json
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\staticwebassets.development.json
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\scopedcss\bundle\BajajWeb.styles.css
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\scopedcss\projectbundle\BajajWeb.bundle.scp.css
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.csproj.CopyComplete
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.dll
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\refint\BajajWeb.dll
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.pdb
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\BajajWeb.genruntimeconfig.cache
+E:\graduation project\BajajWeb\BajajWeb\obj\Debug\net6.0\ref\BajajWeb.dll
