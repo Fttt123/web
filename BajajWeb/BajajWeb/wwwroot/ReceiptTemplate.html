@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Чек</h1>
+
+    <p>Спасибо за ваш заказ! Далее представлена информация детальней:</p>
+
+    <h2>Информация</h2>
+    <table>
+        <tr>
+            <th>Имя получателя</th>
+            <td>@Model.CustomerName</td>
+        </tr>
+        <tr>
+            <th>Дата доставки</th>
+            <td>@Model.DeliveryDate</td>
+        </tr>
+        <tr>
+            <th>Дата покупки</th>
+            <td>@Model.date</td>
+        </tr>
+        <tr>
+            <th>Способ оплаты</th>
+            <td>@Model.Comment</td>
+        </tr>
+    </table>
+
+    <h2>Продукция на доставке</h2>
+    <table>
+        <tr>
+            <th>Название</th>
+            <th>Описание</th>
+            <th>Стоимость</th>
+        </tr>
+    </table>
+</body>
+</html>
