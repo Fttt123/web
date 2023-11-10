@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Controllers\ModelController.cs~RF851342.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DNTCaptcha.Core" Version="4.6.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BajajWeb.DAL\BajajWeb.DAL.csproj" />
+    <ProjectReference Include="..\BajajWeb.Domain\BajajWeb.Domain.csproj" />
+    <ProjectReference Include="..\BajajWeb.Service\BajajWeb.Service.csproj" />
+  </ItemGroup>
+
+</Project>
