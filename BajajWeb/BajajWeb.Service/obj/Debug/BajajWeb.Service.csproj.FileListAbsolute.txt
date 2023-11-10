@@ -1,0 +1,177 @@
+F:\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.Service.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.Service.pdb
+F:\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.DAL.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.Domian.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.EntityFrameworkCore.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Bcl.HashCode.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\System.Collections.Immutable.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Logging.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Options.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\System.Memory.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\System.Numerics.Vectors.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\System.Buffers.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.DAL.pdb
+F:\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.DAL.dll.config
+F:\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.Domian.pdb
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.EntityFrameworkCore.xml
+F:\BajajWeb\BajajWeb.Service\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Bcl.HashCode.xml
+F:\BajajWeb\BajajWeb.Service\bin\Debug\System.Collections.Immutable.xml
+F:\BajajWeb\BajajWeb.Service\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Logging.xml
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Options.xml
+F:\BajajWeb\BajajWeb.Service\bin\Debug\System.Memory.xml
+F:\BajajWeb\BajajWeb.Service\bin\Debug\System.Numerics.Vectors.xml
+F:\BajajWeb\BajajWeb.Service\bin\Debug\System.Buffers.xml
+F:\BajajWeb\BajajWeb.Service\obj\Debug\BajajWeb.Service.csproj.AssemblyReference.cache
+F:\BajajWeb\BajajWeb.Service\obj\Debug\BajajWeb.Service.csproj.CoreCompileInputs.cache
+F:\BajajWeb\BajajWeb.Service\obj\Debug\BajajWeb.Service.csproj.CopyComplete
+F:\BajajWeb\BajajWeb.Service\obj\Debug\BajajWeb.Service.dll
+F:\BajajWeb\BajajWeb.Service\obj\Debug\BajajWeb.Service.pdb
+F:\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.Service.dll.config
+F:\BajajWeb\BajajWeb.Service\bin\Debug\System.ComponentModel.Annotations.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Primitives.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Primitives.xml
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.IdentityModel.Logging.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Newtonsoft.Json.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+F:\BajajWeb\BajajWeb.Service\bin\Debug\Newtonsoft.Json.xml
+F:\BajajWeb\BajajWeb.Service\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.Service.dll.config
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.Service.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.Service.pdb
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.DAL.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.Domian.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.IdentityModel.Logging.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Newtonsoft.Json.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.EntityFrameworkCore.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Bcl.HashCode.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\System.ComponentModel.Annotations.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\System.Collections.Immutable.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Logging.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Options.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Primitives.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\System.Memory.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\System.Numerics.Vectors.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\System.Buffers.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.DAL.pdb
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.DAL.dll.config
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.Domian.pdb
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Newtonsoft.Json.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.EntityFrameworkCore.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Bcl.HashCode.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\System.Collections.Immutable.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Logging.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Options.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Primitives.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\System.Memory.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\System.Numerics.Vectors.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\bin\Debug\System.Buffers.xml
+E:\FCopy\BajajWeb\BajajWeb.Service\obj\Debug\BajajWeb.Service.csproj.AssemblyReference.cache
+E:\FCopy\BajajWeb\BajajWeb.Service\obj\Debug\BajajWeb.Service.csproj.CoreCompileInputs.cache
+E:\FCopy\BajajWeb\BajajWeb.Service\obj\Debug\BajajWeb.Service.csproj.CopyComplete
+E:\FCopy\BajajWeb\BajajWeb.Service\obj\Debug\BajajWeb.Service.dll
+E:\FCopy\BajajWeb\BajajWeb.Service\obj\Debug\BajajWeb.Service.pdb
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.Service.dll.config
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.Service.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.Service.pdb
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.DAL.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.Domian.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.IdentityModel.Logging.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Newtonsoft.Json.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.EntityFrameworkCore.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Bcl.HashCode.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\System.ComponentModel.Annotations.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\System.Collections.Immutable.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Logging.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Options.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Primitives.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\System.Memory.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\System.Numerics.Vectors.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\System.Buffers.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.DAL.pdb
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.DAL.dll.config
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\BajajWeb.Domian.pdb
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Newtonsoft.Json.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.EntityFrameworkCore.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Bcl.HashCode.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\System.Collections.Immutable.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Logging.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Options.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\Microsoft.Extensions.Primitives.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\System.Memory.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\System.Numerics.Vectors.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\bin\Debug\System.Buffers.xml
+E:\graduation project\BajajWeb\BajajWeb.Service\obj\Debug\BajajWeb.Service.csproj.AssemblyReference.cache
+E:\graduation project\BajajWeb\BajajWeb.Service\obj\Debug\BajajWeb.Service.csproj.CoreCompileInputs.cache
+E:\graduation project\BajajWeb\BajajWeb.Service\obj\Debug\BajajWeb.Service.csproj.CopyComplete
+E:\graduation project\BajajWeb\BajajWeb.Service\obj\Debug\BajajWeb.Service.dll
+E:\graduation project\BajajWeb\BajajWeb.Service\obj\Debug\BajajWeb.Service.pdb
